@@ -16,8 +16,8 @@ Fonts are separated by a | */
   --paragraph-font: @import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
 
   /* these colors below should be chosen from among your palette colors above */
-  --headline-color-on-white: black;  /* headlines on a white background */ 
-  --headline-color-on-color: white; /* headlines on a colored background */ 
+  --headline-color-on-white: #395E66;  /* headlines on a white background */ 
+  --headline-color-on-color: #987D7C; /* headlines on a colored background */ 
   --paragraph-color-on-white: #395E66; /* paragraph text on a white background */ 
   --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
   --paragraph-background-color: #A09CB0;
