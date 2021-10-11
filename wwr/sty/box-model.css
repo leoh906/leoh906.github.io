@@ -1,0 +1,67 @@
+body {
+    background-color: lawngreen;
+}
+
+.about {
+    background-color: white;
+    padding: 30px; /* This moves space away from the edge*/
+    border-radius: 15px; /* This command rounds the corners of the section */
+    max-width: 50%; /* Specifies the max-width of the border. It also calculates the padding that was mentioned earlier 
+    (aka its not really 50% padding) */
+    box-sizing: border-box;
+}
+
+.about h2 { /*This is called a drill down model thingy, it says find all h2's in the about class */
+    color: violet;
+
+}
+
+.contact {
+    background-color: fuchsia;
+    border:solid 1px white;
+}
+
+.contact p {
+    color: white;
+    
+}
+
+
+
+
+.info {
+    width: 150px;
+    text-align: center;
+    border-radius: 250px; /* We can use this to make circle borders instead of square borders */
+    background-color: steelblue;
+    height: 150px;
+}
+
+.info h2 {
+    font-size: 25px;
+    padding-top: 44px;
+}
+
+main {
+    display: grid; /* we use this to display a grid, think of making an exel sheet, If it runs out of space it puts 
+    column on the bottom */
+    /*grid-template-columns: 1fr 2fr 1fr;*/
+    grid-template-columns: 150px 1fr; /*Check the difference between the first grid-template-column and the second one */
+     /*fr = fractional remaining, each fr corresponds to one of the cells */
+    gap: 20px; /*Puts a nice little space between the "cells" you created */
+    
+}
+
+main section { /*We made a div inside a div */
+    border:dotted 1px black;
+}
+
+main section h1 { /*We made a div inside a div */
+    text-align: center;
+}
+
+main section div {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    /* border:solid 1px black; */
+}
