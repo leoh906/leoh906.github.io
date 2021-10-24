@@ -1,0 +1,42 @@
+header {
+    align-content: center;
+}
+
+
+
+body {
+    background-color: white;
+}
+
+body h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;  /*fr = frame */
+    grid-template-rows: 189px 189px 228px;
+    gap: 15px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.conference {
+    grid-row: 1/3; /* 1/3 specifies rows */
+    grid-column: 1/3; /*Specifies columns */
+}
+
+.prophet {
+    grid-column: 3/-1;
+    background-color: cyan;
+}
+
+.learnmore {
+    grid-column: 3/5;
+    background-color: cyan;
+}
+
+.hope, .human, .podcast, .news {
+    background-color: blanchedalmond;
+}
