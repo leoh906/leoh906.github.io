@@ -1,23 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="layout.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home Page</title>
 </head>
 <body>
-    <nav class="navigation">
-<img src="content/Food Finds-logos.jpeg" alt="Logo Here" width="200px" height="200px">
-<a href="#"> Learn</a>
-<a href="#"> Support </a>
-<a href="#"> Volunteer</a>
-<a href="#"> Upcoming Projects</a>
-<a href="#"> Social</a>
-<a href="#"> Donate</a>
+    <div id = "content">
+<header>
+<div class="logo-icon">
+<img src="content/Food Finds-logos.jpeg" class="logo" alt="Logo Here">
+</div>
 
+        
+<nav class="navigation">
+<a href = "#"> Learn More</a>
+<a href = "#"> Food Near Me</a>
+<a href = "#"> Read More </a>
     </nav>
+</header>
+
 <main>
+    <div id="main-region">
     <div id="form-layout"> 
         <form> 
             <label for="address-input">Address</label><br>
@@ -36,31 +42,50 @@
     </div> <!-- Ending div corresponds to form-layout-->
 
     <div id="banner-area"> 
-<img src="content/produce_aisle.jpg" width="500px" height="500px">
+<img src="content/produce_aisle.jpg" id="hero-banner" width="500px" height="500px">
     </div> <!-- Corresponds to the banner-area div-->
+</div> <!-- corresponds to main-region div-->
 
-    <section class="Links to Articles"> 
-<a href="learnmore.html" id="Read More"> Learn More</a><br>
+<div id ="card-region">
+    
+<div id="learnmore_card">
+<a href="learnmore.html" id="learn-card"> Learn More</a><br>
 <img src="content/ugly_banana.jpg" width="200px" height="200px"><br>
-<a href="foodnearme.html" id="Read More"> Food Near Me</a><br>
+</div>
+
+<div id="foodnearme_card">
+<a href="foodnearme.html" id="food-near"> Food Near Me</a><br>
 <img src="content/foodnearme/baby_crop.jpg" width="200px" height="200px"><br>
-<a href="#" id="Read More"> Read More </a><br>
+</div>
+
+<div id="readmore_card">
+<a href="#" id="read-more"> Read More </a><br>
 <img src="content/food_pantry.jpg" width="200px" height="200px">
+</div>
+</div> <!-- Corresponds to line 46 (card region)-->
 
 
 
 
-    </section>
 
 
 </main>
 
-<footer class="footer-region">
+<footer>
+<div id="footer-media-naming">
     <img src="content/twitter.png">
     <img src="content/instagram.png">
     <img src="content/facebook.png">
-    <p> Leo Harrison 2021 &#169</p>
-    <a href="site-plan.html"> Site Plan</a>
+     Leo Harrison 2021 &#169
+</div>
+<div id=footer-links>
+<a href="#"> Donate</a>
+<a href="#"> Contact Us</a>
+<a href="site-plan.html"> Site Plan</a>
+
+
+</div>
 </footer>
+</div>
 </body>
 </html>
